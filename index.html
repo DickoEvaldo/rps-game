@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="header">
+        <div class="title">THE ULTIMATE ROCK PAPER SCISSOR GAME</div>
+    </div>
+    <div class="content">
+        <div class="move">Choose</div>
+        <div class="move-list">
+            <ul class="move-images">
+                <li><button id="rock"><img src="images/rock.png" alt="rock image"></button></li>
+                <li><button id="paper"><img src="images/paper.png" alt="paper image"></button></li>
+                <li><button id="scissor"><img src="images/scissor.png" alt="scissor image"></button></li>
+            </ul>
+        </div>
+        <div class="game-container">
+            <div class="human-container">
+                <div class="game-text">HUMAN</div>
+                <div class="move-container">
+                    <img src="images/thinker.png" alt="thinker image">
+                    <div class="box human-box">
+                        <img src="images/computer.png" alt="thinker" style="height: 0px;">
+                    </div>
+                </div>
+            </div>
+            <div class="computer-container">
+                <div class="game-text">COMPUTER</div>
+                <div class="move-container">
+                    <div class="box computer-box">
+                        <img src="images/computer.png" alt="thinker" style="height: 0px;">
+                    </div>
+                    <img src="images/computer.png" alt="computer image">
+                </div>
+            </div>
+        </div>
+        <div class="result-text">
+            
+        </div>
+    </div>
+    <div class="footer">
+        @Dicko-Evaldo 2023
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
